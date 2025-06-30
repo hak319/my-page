@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>이은학 포트폴리오</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div><strong style="font-size: 1.3rem;">이은학 포트폴리오</strong></div>
+    <div>
+      <a href="#" onclick="showSection('home')">🏠 홈</a>
+      <a href="#" onclick="showSection('education')">🎓 학력</a>
+      <a href="#" onclick="showSection('skills')">🛠 기술</a>
+      <a href="#" onclick="showSection('certificates')">📄 자격증 / 면허증</a>
+      <a href="#" onclick="showSection('awards')">🏅 수상</a>
+      <a href="#" onclick="showSection('contact')">📬 연락처</a>
+      <button onclick="toggleDarkMode()">🌗 다크모드</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section id="home" class="section active">
+      <h1>안녕하세요, 이은학입니다 👋</h1>
+      <p><span class="highlight">다양한 경험</span>과 <span class="highlight">열정</span>을 바탕으로,<br> 함께 성장하며 <span class="highlight">사회에 긍정적인 변화를</span> 이끌어낼 준비가 되어 있는 디자이너입니다.</p>
+    </section>
+
+    <section id="education" class="section">
+      <h2>🎓 학력</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>학교명</th>
+            <th>상태</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>충주중학교</td><td>졸업</td></tr>
+          <tr><td>충주상업고등학교</td><td>졸업 예정</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>🛠 기술 스택</h2>
+      <ul>
+        <li>🖌 포토샵</li>
+        <li>🧊 블렌더</li>
+        <li>📐 라이노</li>
+        <li>🎨 페인트넷</li>
+      </ul>
+    </section>
+
+    <section id="certificates" class="section">
+      <h2>📄 자격증 / 면허증</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>종류</th><th>자격증명</th><th>취득일자</th><th>발행기관</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>운전면허</td><td>1종 보통 수동</td><td>2025.05.02</td><td>충청북도경찰청</td></tr>
+          <tr><td>운전면허</td><td>2종 보통 자동</td><td>2025.04.30</td><td>충청북도경찰청</td></tr>
+          <tr><td>국가기술자격증</td><td>제품응용모델링기능사</td><td>2024.04.22</td><td>한국산업인력공단</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="awards" class="section">
+      <h2>🏅 수상 이력</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>수상일자</th><th>수상명</th><th>수상내용</th><th>수상기관</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>2023.05.26</td><td>대전경찰청장 감사장</td><td>경찰장비 모델링 제작</td><td>대전경찰청</td></tr>
+          <tr><td>2023.11.21</td><td>충북컴퓨터꿈나무축제</td><td>SW, AI 제작 부문 동상</td><td>충북교육연구정보원</td></tr>
+          <tr><td>2024.04.05</td><td>충북지방기능경기대회</td><td>제품디자인 동상</td><td>충북 기능경기대회위원회</td></tr>
+          <tr><td>2024.05.22</td><td>서울경찰청장 상장</td><td>타의 모범</td><td>서울경찰청</td></tr>
+          <tr><td>2025.05.19</td><td>충북경찰청장 상장</td><td>학교폭력 예방 등 건전한 학교 문화 확립</td><td>충북경찰청</td></tr>
+          <tr><td>2025.05.29</td><td>충북상업경진대회</td><td>대회 홍보 크리에이터 금상</td><td>충북교육청</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>📬 연락처</h2>
+      <p>📧 이메일: <a href="mailto:eunhak0319@gmail.com">eunhak0319@gmail.com</a></p>
+      <p>📸 인스타그램: <a href="https://instagram.com/eh_lee19" target="_blank">@eh_lee19</a></p>
+      <p>📝 블로그: <a href="https://blog.naver.com/nsw1ss" target="_blank">https://blog.naver.com/nsw1ss</a></p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
