@@ -21,3 +21,9 @@ HTML, CSS, JavaScript로 제작되었으며 다크모드와 반응형 디자인�
 
 1. 저장소 클론 또는 다운로드  
 2. `index.html` 파일을 브라우저로 열기  
+
+혹은
+
+https://my-page-orcin.vercel.app/# 
+
+해당사이트 방문
